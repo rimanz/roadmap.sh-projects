@@ -15,8 +15,20 @@
     padding: 1rem;
 }
 
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.section-heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
 /* Style for header section */
 header {
+    position: fixed;
+    background-color: white;
     padding: 0.25rem 0;
 }
 
@@ -36,12 +48,15 @@ nav {
 
 /* Style for Hero Section */
 .hero {
-    font-size: 1.75rem;
-    line-height: 1.4;
-    text-align: center;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+}
+
+.hero-text {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    text-align: center;
 }
