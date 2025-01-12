@@ -60,3 +60,12 @@ nav {
     line-height: 1.4;
     text-align: center;
 }
+
+/* Style for Project Section */
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
