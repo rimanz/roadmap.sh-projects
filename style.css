@@ -69,3 +69,10 @@ nav {
     padding: 1rem;
     gap: 1rem;
 }
+
+/* Style for About section */
+.about-text {
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 1rem 0;
+}
